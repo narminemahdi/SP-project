@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %} 
+ <div class="col-md-12 text-center">
+ Liste Fournisseurs</div>
+ <ul>
+ {% for fournisseur in list %}
+<li> {{ fournisseur }}
+</li>
+{% endfor %}
+
+</ul>
+{% endblock %}
